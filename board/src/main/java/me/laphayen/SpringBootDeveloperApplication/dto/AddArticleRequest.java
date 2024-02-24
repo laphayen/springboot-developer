@@ -10,7 +10,6 @@ import me.laphayen.SpringBootDeveloperApplication.domain.Article;
 @Getter
 public class AddArticleRequest {
     private String title;
-
     private String content;
 
     public Article toEntity() {
